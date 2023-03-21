@@ -6,7 +6,7 @@
 void print_alphabet(void)
 {
 char xio = 'a';
-while(xio <= 'z')
+while (xio <= 'z')
 {
 _putchar(xio);
 xio++;
