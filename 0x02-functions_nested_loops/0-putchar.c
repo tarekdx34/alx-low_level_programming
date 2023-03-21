@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-Main is the entry point 
-this programe just prints a "_putchar"
-**/
+ *Main is the entry point 
+ *this programe just prints a "_putchar"
+ */
 int main(void)
 {
 _putchar('_');
@@ -13,6 +13,6 @@ _putchar('c');
 _putchar('h');
 _putchar('a');
 _putchar('r');
-_putchar('\n');
-  return 0;
+_putchar('\n')
+return 0;
 }
