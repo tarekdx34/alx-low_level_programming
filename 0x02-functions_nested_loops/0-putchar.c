@@ -1,10 +1,17 @@
-#include<stdio.h>
+#include "main.h"
 /**
 Main is the entry point 
 this programe just prints a "_putchar"
 **/
 int main(void)
 {
-printf("_putchar")
-return 0;
+_putchar('_')
+_putchar('p')
+_putchar('u')
+_putchar('t')
+_putchar('c')
+_putchar('a')
+_putchar('r')
+_putchar('/n')
+  return 0;
 }
