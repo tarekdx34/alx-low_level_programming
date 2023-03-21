@@ -5,11 +5,11 @@
  */
 void print_alphabet(void)
 {
-char xio= 'a';
-while(xio<='z')
+char xio = 'a';
+while(xio <= 'z')
 {
 _putchar(xio);
 xio++;
 }
-_putchar('\n');;
+_putchar('\n');
 }
