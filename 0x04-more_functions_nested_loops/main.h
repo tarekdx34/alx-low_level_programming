@@ -1,11 +1,27 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 /**
- * _isupper - checks for  upper case
- * @c : digit to be checked
- * Return : 1 if true and 0 if false
+ * _putchar - puts character to standard output
+ * @c: character to put to standard output
  */
+
+int _putchar(char c);
+
+/**
+ * _isupper - checks for uppercase character
+ * @c: character to be checked
+ * Return: 1 if true, 0 if false
+ */
+
 int _isupper(int c);
+
+/**
+ * _isdigit - checks for a digit 0 through 9
+ * @c: digit to be checked
+ * Return: 1 if true, 0 if false
+ */
+
 int _isdigit(int c);
 
 /**
@@ -67,5 +83,14 @@ void print_triangle(int size);
  * print_triangle - print traingle with #'s with given size
  * @size: size of triangle to draw
  */
+
+void print_triangle(int size);
+
+/**
+ * print_number = print an integer, without using long, arrays, or pointers
+ * @n: number to be printed
+ */
+
 void print_number(int n);
+
 #endif
