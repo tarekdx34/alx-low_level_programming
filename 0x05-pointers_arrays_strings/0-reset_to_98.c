@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *It takes pointer of int and
+ *reset_to_98 - It takes pointer of int and
  *return 98 as the value of that int
  *@n: is the ptr
  */
