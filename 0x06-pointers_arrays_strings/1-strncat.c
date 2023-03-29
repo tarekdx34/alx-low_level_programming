@@ -13,7 +13,7 @@ int i;
 
 while (dest[ln] != '\0')
 ln++;
-for (i = 0; i <= n && src[i] != '\0'; i++)
+for (i = 0; i < n && src[i] != '\0'; i++)
 {
 dest[ln] = src[i];
 ln++;
