@@ -1,23 +1,19 @@
 #include "main.h"
 /**
- *_strcmp -  compares two strings
- *@s1:first string
- *@s2:secont string
- *Return:an integer indicating the result of the comparison
+ * _strcmp - compare two strings
+ * @s1: one string
+ * @s2: one string
+ * Return: int that tells num spaces in between
  */
 int _strcmp(char *s1, char *s2)
 {
-int sum1 = 0;
-int sum2 = 0;
-while (*s1 != '\0')
+while (*s1 != '\0' || *s2 != '\0')
 {
-sum1 = sum1 + *s1;
+
+if (*s1 != *s2)
+return (*s1 - *s2);
 s1++;
-}
-while (*s2 != '\0')
-{
-sum2 = sum2 + *s2;
 s2++;
 }
-return (sum1 - sum2);
+return (0);
 }
