@@ -17,7 +17,7 @@ s1++;
 while (*s2 != '\0')
 {
 sum2 = sum2 + *s2;
-s2++
+s2++;
 }
 return (sum1 - sum2);
 }
