@@ -31,7 +31,7 @@ for (one = 0; one < ac; one++)
 {
 for (two = 0; av[one][two] != '\0'; two++)
 {
-s[three] = av[one][two]
+s[three] = av[one][two];
 three++;
 }
 s[three] = '\n';
