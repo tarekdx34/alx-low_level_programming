@@ -14,17 +14,13 @@ int *ptr;
 
 if (min > max)
 return (NULL);
-keke = (max - min);
+keke = (max - min) + 1;
 ptr = malloc(sizeof(int) * keke);
-for (i = 0; i <= keke; i++)
-{
-if (min < max)
-{
-ptr[i] = min;
-min++;
-}
-}
 if (ptr == NULL)
 return (NULL);
+for (i = 0; min <= max; i++)
+{
+ptr[i] = min++;
+}
 return (ptr);
 }
