@@ -14,7 +14,7 @@ int *ptr;
 
 if (min > max)
 return (NULL);
-keke = (max - min) + 1;
+keke = (max - min);
 ptr = malloc(sizeof(int) * keke);
 for (i = 0; i <= keke; i++)
 {
