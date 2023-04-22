@@ -13,6 +13,8 @@ unsigned int i;
 unsigned int sum = 0;
 va_list nPtr;
 
+if (n == 0)
+return (0);
 va_start(nPtr, n);
 for (i = 0; i < n; i++)
 sum += va_arg(nPtr, int);
